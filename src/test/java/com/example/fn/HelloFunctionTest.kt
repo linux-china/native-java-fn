@@ -2,6 +2,7 @@ package com.example.fn
 
 import org.junit.Test
 import org.mvnsearch.fn.HelloFunction
+import kotlin.test.assertEquals
 
 /**
  * hello function test
@@ -12,6 +13,7 @@ class HelloFunctionTest {
 
     @Test
     fun testHello() {
-        println(HelloFunction().handleRequest())
+        val welcome = HelloFunction().handleRequest()
+        assertEquals("Hello, world!", welcome)
     }
 }
