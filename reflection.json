@@ -1,0 +1,12 @@
+[
+  {
+    "name": "org.mvnsearch.fn.HelloFunction",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  }
+]
