@@ -2,9 +2,9 @@ package org.mvnsearch.fn
 
 class HelloFunction {
 
-    fun handleRequest(input: String?): String {
+    fun handleRequest(input: String = "world"): String {
         var name = input
-        if (name.isNullOrEmpty()) {
+        if (name.isEmpty()) {
             name = "world"
         }
         return "Hello, $name!"
