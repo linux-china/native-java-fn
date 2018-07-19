@@ -1,0 +1,4 @@
+name: nativejavafn
+version: 0.0.1
+runtime: docker
+format: http
